@@ -28,7 +28,7 @@ const Home = () => {
         <div className="h-right">
             <img src={Vivian} alt="image of Vivian Chen" />
 
-        <div className="blur" style={{ background: "blue" }}></div>
+        {/* <div className="blur" style={{ background: "blue" }}></div>
         <div
           className="blur"
           style={{
@@ -38,7 +38,7 @@ const Home = () => {
             height: "11rem",
             left: "40rem",
           }}
-        ></div>
+        ></div> */}
         </div>
     </div>
   )

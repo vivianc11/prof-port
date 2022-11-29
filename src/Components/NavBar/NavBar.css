@@ -24,7 +24,7 @@
 }
 
 .navbar-list {
-    flex: 10;
+    flex: 5;
 }
 
 .navbar-list ul {
@@ -40,5 +40,5 @@
 }
 
 .navbar-button {
-    flex: 2;
+    flex: 1;
 }
