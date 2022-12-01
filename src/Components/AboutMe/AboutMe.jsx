@@ -1,8 +1,13 @@
 import React from 'react';
 import './AboutMe.css';
 import Card from 'react-bootstrap/Card';
+import { themeContext } from '../../Context';
+import { useContext } from 'react';
+
 
 const AboutMe = () => {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
     <div className="about-me">
@@ -10,7 +15,7 @@ const AboutMe = () => {
                 <span>A Little</span>
                 <span>About Me!</span>
                 <br></br>
-                <div className="check">Check out my Resume!</div>
+                <div className="check" style={{color: darkMode? 'white' : ''}}>Check out my Resume!</div>
             <button className='button resume-button'>
                 <a href="Vivian_Chen_Resume.pdf" target= '_blank'>Resume Download</a>
             </button>

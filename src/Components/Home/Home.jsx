@@ -4,13 +4,19 @@ import Github from '../../img/github.png';
 import Linkedin from '../../img/linkedin.png';
 import Email from '../../img/email_icon.png';
 import Vivian from '../../img/vivian_pic.png';
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
 
 const Home = () => {
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="h-container">
         <div className="h-left">
             <div className="h-name">
-                <span>Hello! My Name Is</span>
+                <span style={{color: darkMode? 'white' : ''}}>Hello! My Name Is</span>
                 <span>Vivian Chen</span>
                 <span>Full Stack Web Developer</span>
             </div>

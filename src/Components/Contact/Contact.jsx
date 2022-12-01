@@ -5,9 +5,13 @@ import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import emailjs from '@emailjs/browser';
 import Card from 'react-bootstrap/Card';
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
+
 
 const Contact = () => {
-
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -26,12 +30,12 @@ const Contact = () => {
   return (
     <div className="c-container">
         <div className="c-left">
-            <div>Get in Touch</div>
+            <div style={{color: darkMode? 'white' : ''}}>Get in Touch</div>
             <div className='c-word'>Contact Me</div>
         </div>
         <div className="c-right">
             <div className="c-form">
-                <Card className='c-card'>
+                <Card className='c-card' style={{backgroundColor: darkMode? 'black' : ''}}>
                     <Form ref={form} onSubmit={sendEmail}>
                     <FloatingLabel
                     name="from_name"

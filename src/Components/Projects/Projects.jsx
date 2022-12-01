@@ -2,12 +2,17 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Projects.css'
+import { useContext } from 'react';
+import { themeContext } from '../../Context';
 
 const Projects = () => {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
   return (
     <div className='p-container'>
         <div className="p-top">
-            <div className="p-title">Project Portfolio</div>
+            <div className="p-title" style={{color: darkMode? 'white' : ''}}>Project Portfolio</div>
         </div>
 
         <div className="p-bottom">
