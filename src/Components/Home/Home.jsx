@@ -1,8 +1,10 @@
 import React from 'react';
 import './Home.css'
-import Github from '../../img/github.png'
-import Linkedin from '../../img/linkedin.png'
-import Vivian from '../../img/vivian_pic.png'
+import Github from '../../img/github.png';
+import Linkedin from '../../img/linkedin.png';
+import Email from '../../img/email_icon.png';
+import Vivian from '../../img/vivian_pic.png';
+
 const Home = () => {
   return (
     <div className="h-container">
@@ -16,11 +18,14 @@ const Home = () => {
             <button className='button h-button'>Learn More About Me</button>
 
             <div className="h-icons">
-                <a href="">
+                <a href="https://github.com/vivianc11" target='_blank' rel="noopener">
                     <img src={Github} alt="github icon" />
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/vivian-chen-b19483145/" target='_blank' rel="noopener">
                     <img src={Linkedin} alt="linkedin icon" />
+                </a>
+                <a href="vivian.chen1193@gmail.com" target='_blank' rel="noopener">
+                    <img src={Email} alt="email icon" />
                 </a>
             </div>
         </div>

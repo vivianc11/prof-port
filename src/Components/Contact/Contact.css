@@ -1,0 +1,39 @@
+.c-container {
+    display: flex;
+    height: 50vh;
+}
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 4rem;
+}
+
+.c-left div {
+    text-align: center;
+    font-weight: bold;
+}
+.c-word {
+    color: green;
+}
+
+.c-right {
+    flex: 1;
+}
+
+.c-card {
+    border-color: rgba(254, 254, 254, 0);
+    width: 35rem;
+}
+.c-name, .c-email {
+    border: 2px solid green;
+}
+.c-message {
+    height: 250px !important;
+    border: 2px solid green;
+}
+.button-cont{
+    display: flex;
+    justify-content: center;
+}

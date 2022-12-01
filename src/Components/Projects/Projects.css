@@ -1,0 +1,42 @@
+.p-container {
+    height: 65vh;
+}
+.p-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.p-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.p-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.p-image {
+    height: 300px;
+}
+.p-card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+}
+.p-button {
+    align-self: flex-end;
+}
+.p-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.p-button:hover > a {
+    color: red;
+}
