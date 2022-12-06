@@ -1,6 +1,6 @@
 .c-container {
     display: flex;
-    height: 50vh;
+    margin: 20rem 0 3rem 0;
 }
 
 .c-left {
@@ -36,4 +36,4 @@
 .button-cont{
     display: flex;
     justify-content: center;
-}
+}  

@@ -3,6 +3,8 @@ import { themeContext } from '../../Context';
 import Toggle from '../Toggle/Toggle';
 import { useContext } from 'react';
 import './NavBar.css';
+import { Link } from 'react-scroll';
+
 
 const NavBar = () => {
 
@@ -10,6 +12,7 @@ const NavBar = () => {
     const darkMode = theme.state.darkMode;
 
   return (
+    <div className="fixed">
     <div className="navbar-container">
         <div className="navbar-left">
             <div className="navbar-name" style={{color: darkMode? 'white' : ''}}>Vivian Chen</div>
@@ -19,14 +22,23 @@ const NavBar = () => {
         <div className="navbar-right">
             <div className="navbar-list" style={{color: darkMode? 'white' : ''}}>
                 <ul>
-                    <li>Home</li>
-                    <li>AboutMe</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
+                    <Link activeClass='active' spy={true} to='Home' smooth={true}>
+                        <li>Home</li>
+                    </Link>
+                    <Link activeClass='active' spy={true} to='AboutMe' smooth={true}>
+                        <li>AboutMe</li>
+                    </Link>
+                    <Link activeClass='active' spy={true} to='Projects' smooth={true}>
+                        <li>Projects</li>
+                    </Link>
+                    
                 </ul>
             </div>
+            <Link activeClass='active' spy={true} to='Contact' smooth={true}>
             <button className="button navbar-button">Contact Me</button>
+            </Link>
         </div>
+    </div>
     </div>
   )
 }

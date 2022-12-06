@@ -1,6 +1,3 @@
-.p-container {
-    height: 65vh;
-}
 .p-top {
     display: flex;
     justify-content: center;
@@ -17,26 +14,25 @@
     justify-content: space-between;
     margin-top: 2rem;
 }
-.p-image {
-    height: 300px;
-}
+
 .p-card-body {
     display: flex;
     flex-direction: column;
 }
 .card-buttons {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: auto;
+    gap: 1rem;
 }
-.p-button {
-    align-self: flex-end;
-}
+
 .p-button a {
     text-decoration: none;
     color: white;
 }
 
 .p-button:hover > a {
-    color: red;
+    color: #FFA601;
 }

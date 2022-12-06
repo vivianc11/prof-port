@@ -28,7 +28,7 @@ const Contact = () => {
     };
 
   return (
-    <div className="c-container">
+    <div id='Contact' className="c-container">
         <div className="c-left">
             <div style={{color: darkMode? 'white' : ''}}>Get in Touch</div>
             <div className='c-word'>Contact Me</div>

@@ -4,7 +4,7 @@
   }
   
  
-  .h-left {
+  .h-right {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -47,14 +47,15 @@
   .h-icons > *:hover {
     cursor: pointer;
   }
-  .h-right {
+  .h-left {
     display: flex;
     flex: 1;
     align-items: center;
+    justify-content: center;
   }
-  .h-right img {
-    height: auto;
-    width: 45rem;
+  .h-left img {
+    height: 40rem;
+    width: auto;
     border-radius: 40px;
   }
 
