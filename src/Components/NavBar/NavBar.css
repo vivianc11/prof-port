@@ -40,3 +40,18 @@
     cursor: pointer;
     color: #FFA601;
 }
+
+@media screen and (max-width: 600px) {
+    .navbar-list ul{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 720px) {
+    .navbar-container{
+        flex-direction: column;
+        height: 15vh;
+    }
+    .navbar-right {
+        align-self: flex-start;
+    }
+}

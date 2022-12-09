@@ -1,6 +1,7 @@
 .h-container {
     display: flex;
     height: 90vh;
+    margin-top: 20px;
   }
   
  
@@ -38,7 +39,7 @@
   .h-icons {
     margin-top: 3rem;
     display: flex;
-    gap: 0rem;
+   
   }
   .h-icons > * {
     transform: scale(0.5);
@@ -70,3 +71,40 @@
     left: 56%;
     filter: blur(72px);
   } */
+
+  @media screen and (max-width: 890px) {
+    .h-right {
+      margin-left: 30px;
+    }
+    .h-left img {
+      height: 30rem;
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 720px){
+    .h-container{
+      flex-direction: column;
+      height: 100%;
+      margin-top: 0;
+    }
+    .h-left {
+      margin-top: 20px;
+    }
+    .h-left img {
+      height: 18rem;
+      width: auto;
+    }
+    .h-right {
+      margin: 20px 0;
+      text-align: center;
+      gap: 1rem;
+    }
+    .h-name {
+      gap: 0;
+    }
+    .h-icons {
+      justify-content: center;
+      margin-top: 0;
+    }
+  }

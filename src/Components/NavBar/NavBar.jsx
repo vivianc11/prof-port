@@ -31,12 +31,12 @@ const NavBar = () => {
                     <Link activeClass='active' spy={true} to='Projects' smooth={true}>
                         <li>Projects</li>
                     </Link>
+                    <Link activeClass='active' spy={true} to='Contact' smooth={true}>
+                        <li>ContactMe</li>
+                    </Link>
                     
                 </ul>
             </div>
-            <Link activeClass='active' spy={true} to='Contact' smooth={true}>
-            <button className="button navbar-button">Contact Me</button>
-            </Link>
         </div>
     </div>
     </div>

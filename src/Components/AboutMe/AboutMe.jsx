@@ -32,12 +32,14 @@ const AboutMe = () => {
               <li>MySQL</li>
               <li>MongoDB</li>
               <li>CSS Frameworks: Bootstrap and Bulma</li>
-              </ul> I am highly motivated to continue learning new technologies/tech stacks, as well as enhancing the skills stated above.</div>
+              </ul> 
+              </div>
+              {/* I am highly motivated to continue learning new technologies/tech stacks, as well as enhancing the skills stated above.
             <div>I'm originally from Denver, Colorado and graduated from Colorado State University with a degree in Bachelor's of Science: Biomedical Sciences. I then pursued a career in dentistry by attending dental school at University of Colorado Anschutz Medical Campus. Then, I enrolled with University of California, San Diego Extended Studies Program for a Full Stack Development Bootcamp. </div>
             <div>After completing my certification in the 3 month program, I am determined to build a career in the tech industry, and become apart of the tech community.</div>
             <h4>More About Me</h4>
             <div>I love spending time indoors and outdoors, traveling, video/board games, and spending time with my cat, friends and family.
-            If you want to get to know me more, please use the links at the bottom of the page!</div>
+            If you want to get to know me more, please use the links at the bottom of the page!</div> */}
         </Card>
     </div>
   )

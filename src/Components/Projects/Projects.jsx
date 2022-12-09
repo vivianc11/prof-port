@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
 
         <div className="p-bottom">
-            <Card style={{ width: '25%' }}>
+            <Card className='card'>
                 <Card.Img className='p-image' variant="top" src="dibs.png" />
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
                     <Card.Title>Dibs</Card.Title>
@@ -35,7 +35,7 @@ const Projects = () => {
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '25%' }}>
+            <Card className='card'>
                 <Card.Img className='p-image' variant="top" src="Happy-panda.png" />
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
                     <Card.Title>Happy Panda</Card.Title>
@@ -56,7 +56,7 @@ const Projects = () => {
                 </Card.Body>
             </Card>
 
-            <Card style={{ width: '25%' }}>
+            <Card className='card'>
                 <Card.Img className='p-image' variant="top" src="gif-board.png" />
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
                     <Card.Title>Gif Board</Card.Title>

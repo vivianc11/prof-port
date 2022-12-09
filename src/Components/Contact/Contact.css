@@ -1,6 +1,6 @@
 .c-container {
     display: flex;
-    margin: 20rem 0 3rem 0;
+    margin: 8rem 0 3rem 0;
 }
 
 .c-left {
@@ -37,3 +37,25 @@
     display: flex;
     justify-content: center;
 }  
+
+@media screen and (max-width: 890px) {
+     .c-container {
+        margin: 6rem 0 3rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .c-form {
+        width: 80%;
+        height: auto;
+    }
+    
+  }
+
+  @media screen and (max-width: 720px) {
+    .c-container {
+        margin-top: 20px;
+    }
+    .c-card {
+        width: 400px;
+    }
+  }

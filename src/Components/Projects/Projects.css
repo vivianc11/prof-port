@@ -15,6 +15,10 @@
     margin-top: 2rem;
 }
 
+.card {
+    width: 25%;
+}
+
 .p-card-body {
     display: flex;
     flex-direction: column;
@@ -35,4 +39,29 @@
 
 .p-button:hover > a {
     color: #FFA601;
+}
+
+@media screen and (max-width: 890px) {
+    .p-container {
+        margin-top: 6rem;
+    }
+    .p-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+  }
+
+@media screen and (max-width: 720px) {
+    .p-container {
+        height: 100%;
+        margin-top: 7rem;
+    }
+    .card {
+        width: 400px;
+    }
+    
 }
