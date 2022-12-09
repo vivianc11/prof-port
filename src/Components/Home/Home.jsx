@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div id='Home' className="h-container">
         <div className="h-left">
-        <img src={Vivian} alt="image of Vivian Chen" />
+        <img src={Vivian} alt="Vivian Chen" />
 
     {/* <div className="blur" style={{ background: "blue" }}></div>
         <div
@@ -43,13 +43,13 @@ const Home = () => {
             <button className='button h-button'>Learn More About Me</button>
             </Link>
             <div className="h-icons">
-                <a href="https://github.com/vivianc11" target='_blank' rel="noopener">
+                <a href="https://github.com/vivianc11" target='_blank' rel="noreferrer">
                     <img src={Github} alt="github icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/vivian-chen-b19483145/" target='_blank' rel="noopener">
+                <a href="https://www.linkedin.com/in/vivian-chen-b19483145/" target='_blank' rel="noreferrer">
                     <img src={Linkedin} alt="linkedin icon" />
                 </a>
-                <a href="vivian.chen1193@gmail.com" target='_blank' rel="noopener">
+                <a href="vivian.chen1193@gmail.com" target='_blank' rel="noreferrer">
                     <img src={Email} alt="email icon" />
                 </a>
             </div>
