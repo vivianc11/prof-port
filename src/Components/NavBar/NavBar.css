@@ -1,7 +1,9 @@
+
 .navbar-container {
     height: 8vh;
     display: flex;
     justify-content: space-between;
+    background-color: #00800015;
 }
 
 .navbar-left {
@@ -9,6 +11,7 @@
     flex: 1;
     align-items: center;
     gap: 2rem;
+    padding-left: 20px;
 }
 
 .navbar-name {
@@ -18,7 +21,7 @@
 
 .navbar-right {
     display: flex;
-    flex: 1;
+   
     align-items: center;
     justify-content: flex-end;
 }
@@ -49,9 +52,27 @@
 @media screen and (max-width: 720px) {
     .navbar-container{
         flex-direction: column;
-        height: 15vh;
+        height: 40%;
+    }
+    .navbar-left {
+      border-bottom: 1px solid #00800044;
+      padding-bottom: 5px;
     }
     .navbar-right {
-        align-self: flex-start;
+        justify-content: center;
+    }
+   
+    .navbar-list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar-list ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        padding-left: 0;
+        gap: 1rem;
     }
 }

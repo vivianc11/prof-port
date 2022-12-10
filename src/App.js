@@ -9,6 +9,7 @@ import { themeContext } from './Context';
 import './App.css';
 import { useContext } from 'react';
 
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;

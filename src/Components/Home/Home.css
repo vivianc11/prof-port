@@ -2,6 +2,7 @@
     display: flex;
     height: 90vh;
     margin-top: 20px;
+    padding: 0 3rem;
   }
   
  
@@ -87,6 +88,7 @@
       flex-direction: column;
       height: 100%;
       margin-top: 0;
+      border-bottom: 1px solid #00800044;
     }
     .h-left {
       margin-top: 20px;

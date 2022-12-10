@@ -1,3 +1,7 @@
+.p-container {
+    padding: 0 3rem;
+
+}
 .p-top {
     display: flex;
     justify-content: center;
@@ -58,10 +62,12 @@
 @media screen and (max-width: 720px) {
     .p-container {
         height: 100%;
-        margin-top: 7rem;
+        margin-top: 20px;
+        border-bottom: 1px solid #00800044;
+
     }
     .card {
-        width: 400px;
+        width: 350px;
     }
     
 }

@@ -12,7 +12,6 @@ const NavBar = () => {
     const darkMode = theme.state.darkMode;
 
   return (
-    <div className="fixed">
     <div className="navbar-container">
         <div className="navbar-left">
             <div className="navbar-name" style={{color: darkMode? 'white' : ''}}>Vivian Chen</div>
@@ -38,7 +37,6 @@ const NavBar = () => {
                 </ul>
             </div>
         </div>
-    </div>
     </div>
   )
 }

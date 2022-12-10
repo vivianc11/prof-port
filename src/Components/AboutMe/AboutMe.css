@@ -64,9 +64,11 @@
         padding: 0;
         height: 100%;
         margin-bottom: 20px;
+        margin-top: 20px;
+        border-bottom: 1px solid #00800044;
         
     }
     .about-me-right {
-        width: 400px;
+        width: 350px !important;
     }
 }
