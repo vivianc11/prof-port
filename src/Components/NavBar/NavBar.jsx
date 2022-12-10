@@ -21,9 +21,6 @@ const NavBar = () => {
         <div className="navbar-right">
             <div className="navbar-list" style={{color: darkMode? 'white' : ''}}>
                 <ul>
-                    <Link activeClass='active' spy={true} to='Home' smooth={true}>
-                        <li>Home</li>
-                    </Link>
                     <Link activeClass='active' spy={true} to='AboutMe' smooth={true}>
                         <li>AboutMe</li>
                     </Link>
