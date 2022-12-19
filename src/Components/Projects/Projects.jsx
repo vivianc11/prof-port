@@ -120,19 +120,19 @@ const Projects = () => {
             </Card>
 
             <Card className='card'>
-                <Card.Img className='p-image' variant="top" src="gif-board.png" />
+                <Card.Img className='p-image' variant="top" src="pass-gen.png" />
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
                     <Card.Title>Gif Board</Card.Title>
                     <Card.Text>
-                    An app that lets the user input a word or generate random word. Then it will take that word and search for a related Gif through Giphy API to present to the user
+                    A random password generator that prompts the user with questions on password criteria, and then generates a password for them.
                     </Card.Text>
                     <div className='card-buttons'>
                     
-                            <a href='https://rkle408.github.io/gif-board/' target='_blank' rel="noreferrer">
+                            <a href='https://vivianc11.github.io/Rand-Pass-Gen/' target='_blank' rel="noreferrer">
                                 <Button className="button p-button">Deployed Site</Button>
                             </a>
                         
-                            <a href='https://github.com/rkle408/gif-board'>
+                            <a href='https://github.com/vivianc11/Rand-Pass-Gen'>
                                 <Button className="button p-button">GitHub Repo</Button>
                             </a>
                         
