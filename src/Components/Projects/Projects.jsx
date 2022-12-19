@@ -99,9 +99,9 @@ const Projects = () => {
             </Card>
 
             <Card className='card'>
-                <Card.Img className='p-image' variant="top" src="weather-dash.png" />
+                <Card.Img className='p-image' variant="top" src="weather-dash.png" style={{height: '175px'}}/>
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
-                    <Card.Title>Gif Board</Card.Title>
+                    <Card.Title>Weather Dashboard</Card.Title>
                     <Card.Text>
                     A weather app that lets the user search a 10-day weather forcast for a specific city in the U.S. and saves that search in their history for future reference.
                     </Card.Text>
@@ -122,7 +122,7 @@ const Projects = () => {
             <Card className='card'>
                 <Card.Img className='p-image' variant="top" src="pass-gen.png" />
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
-                    <Card.Title>Gif Board</Card.Title>
+                    <Card.Title>Random Password Generator</Card.Title>
                     <Card.Text>
                     A random password generator that prompts the user with questions on password criteria, and then generates a password for them.
                     </Card.Text>

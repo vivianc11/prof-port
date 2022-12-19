@@ -24,7 +24,7 @@
 
 .c-card {
     border-color: rgba(254, 254, 254, 0);
-    width: 35rem;
+    width: 80%;
 }
 .c-name, .c-email {
     border: 2px solid green;
