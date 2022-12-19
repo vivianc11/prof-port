@@ -15,12 +15,14 @@
 
 .p-bottom {
     display: flex;
-    justify-content: space-between;
     margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
     width: 25%;
+    margin: 1rem 2rem;
 }
 
 .p-card-body {

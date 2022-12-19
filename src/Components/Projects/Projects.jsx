@@ -76,6 +76,69 @@ const Projects = () => {
                     </div>
                 </Card.Body>
             </Card>
+
+            <Card className='card'>
+                <Card.Img className='p-image' variant="top" src="gif-board.png" />
+                <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
+                    <Card.Title>Gif Board</Card.Title>
+                    <Card.Text>
+                    An app that lets the user input a word or generate random word. Then it will take that word and search for a related Gif through Giphy API to present to the user
+                    </Card.Text>
+                    <div className='card-buttons'>
+                    
+                            <a href='https://rkle408.github.io/gif-board/' target='_blank' rel="noreferrer">
+                                <Button className="button p-button">Deployed Site</Button>
+                            </a>
+                        
+                            <a href='https://github.com/rkle408/gif-board'>
+                                <Button className="button p-button">GitHub Repo</Button>
+                            </a>
+                        
+                    </div>
+                </Card.Body>
+            </Card>
+
+            <Card className='card'>
+                <Card.Img className='p-image' variant="top" src="gif-board.png" />
+                <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
+                    <Card.Title>Gif Board</Card.Title>
+                    <Card.Text>
+                    An app that lets the user input a word or generate random word. Then it will take that word and search for a related Gif through Giphy API to present to the user
+                    </Card.Text>
+                    <div className='card-buttons'>
+                    
+                            <a href='https://rkle408.github.io/gif-board/' target='_blank' rel="noreferrer">
+                                <Button className="button p-button">Deployed Site</Button>
+                            </a>
+                        
+                            <a href='https://github.com/rkle408/gif-board'>
+                                <Button className="button p-button">GitHub Repo</Button>
+                            </a>
+                        
+                    </div>
+                </Card.Body>
+            </Card>
+
+            <Card className='card'>
+                <Card.Img className='p-image' variant="top" src="gif-board.png" />
+                <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
+                    <Card.Title>Gif Board</Card.Title>
+                    <Card.Text>
+                    An app that lets the user input a word or generate random word. Then it will take that word and search for a related Gif through Giphy API to present to the user
+                    </Card.Text>
+                    <div className='card-buttons'>
+                    
+                            <a href='https://rkle408.github.io/gif-board/' target='_blank' rel="noreferrer">
+                                <Button className="button p-button">Deployed Site</Button>
+                            </a>
+                        
+                            <a href='https://github.com/rkle408/gif-board'>
+                                <Button className="button p-button">GitHub Repo</Button>
+                            </a>
+                        
+                    </div>
+                </Card.Body>
+            </Card>
         </div>
     </div>
   )
