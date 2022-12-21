@@ -16,6 +16,25 @@ const Projects = () => {
         </div>
 
         <div className="p-bottom">
+        <Card className='card'>
+                <Card.Img className='p-image' variant="top" src="smileline.png" />
+                <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
+                    <Card.Title>SmileLine</Card.Title>
+                    <Card.Text>
+                    An application that will streamline communication between dentists and their patients. The hope is that it creates an environment of knowledge and safety prior to the dentist appointment!
+                    </Card.Text>
+                    <div className='card-buttons'>
+                            <a href='http://smile-line.vercel.app/' target='_blank' rel="noreferrer">
+                                <Button className="button p-button">Deployed Site </Button>
+                            </a>
+    
+                            <a href='https://github.com/rkle408/smile-line'>
+                                <Button className="button p-button">GitHub Repo</Button>
+                            </a>
+                    </div>
+                </Card.Body>
+            </Card>
+
             <Card className='card'>
                 <Card.Img className='p-image' variant="top" src="dibs.png" />
                 <Card.Body className='p-card-body' style={{backgroundColor: darkMode? 'black' : '', color: darkMode? '#a3a7b6' : ''}}>
@@ -24,7 +43,7 @@ const Projects = () => {
                     An app that allow users to give away items for free and be able to call dibs on items they want posted by others
                     </Card.Text>
                     <div className='card-buttons'>
-                            <a href='https://intense-brook-23504.herokuapp.com/' target='_blank' rel="noreferrer">
+                            <a href='https://octo-dibs.herokuapp.com/login' target='_blank' rel="noreferrer">
                                 <Button className="button p-button">Deployed Site </Button>
                             </a>
     
