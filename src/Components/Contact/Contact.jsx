@@ -40,7 +40,7 @@ const Contact = () => {
                     <FloatingLabel
                     name="from_name"
                     controlId="floatingInput"
-                    label="Please Enter Your Full Name"
+                    label="Your Full Name"
                     className="mb-3"
                     style={{}}
                     >
@@ -50,7 +50,7 @@ const Contact = () => {
                     <FloatingLabel
                     name="user_email"
                     controlId="floatingInput"
-                    label="Please Enter Your Email Address"
+                    label="Your Email Address"
                     className="mb-3"
                     style={{}}
                 >
