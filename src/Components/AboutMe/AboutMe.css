@@ -1,8 +1,12 @@
 .about-me {
     display: flex;
+    flex-direction: column;
     padding: 3rem 3rem 0 3rem;
     margin-bottom: 4rem;
     margin-top: 4rem;
+}
+.about-me-top {
+    display: flex;
 }
 .about-me-left {
     display: flex;
@@ -40,6 +44,16 @@
     padding: 1rem 26px 1rem 26px;
     background-color: #ffffff00;
     width: 75% !important;
+}
+
+.about-me-bot {
+    font-size: larger;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.guided-text {
+   margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 890px) {

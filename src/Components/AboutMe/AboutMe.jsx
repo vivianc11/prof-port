@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './AboutMe.css';
 import Card from 'react-bootstrap/Card';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
+import { Navigate } from 'react-router-dom';
+
 
 
 const AboutMe = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
+  const [goToGuide, setGoToGuide] = useState(false);
+
+  if (goToGuide) {
+    return <Navigate to='/guidedaboutme' />
+  }
+
+
   return (
     <div id='AboutMe' className="about-me">
+      <div className='about-me-top'>
         <div className="about-me-left">
                 <span style={{color: darkMode? 'white' : ''}}>A Little</span>
                 <span>About Me!</span>
@@ -41,6 +51,11 @@ const AboutMe = () => {
             <div>I love spending time indoors and outdoors, traveling, video/board games, and spending time with my cat, friends and family.
             If you want to get to know me more, please use the links at the bottom of the page!</div> */}
         </Card>
+      </div>
+      <div className='about-me-bot'>
+        <div className='guided-text'>If you would like to know more, check out this guided walkthrough of career up to today!</div>
+        <button onClick={() => setGoToGuide(true)} className='button guided-button'>Guided About Me</button>
+      </div>
     </div>
   )
 }
