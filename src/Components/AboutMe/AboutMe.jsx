@@ -17,7 +17,7 @@ const AboutMe = () => {
                 <br></br>
                 <div className="check" style={{color: darkMode? 'white' : ''}}>Check out my Resume!</div>
             
-                <a href="Vivian_Chen_Resume.pdf" target= '_blank'>
+                <a href="VC_Resume.pdf" target= '_blank'>
                   <button className='button resume-button'>Resume Download</button>
                 </a>
             
