@@ -46,7 +46,7 @@ const Home = () => {
                 <a href="https://github.com/vivianc11" target='_blank' rel="noreferrer">
                     <img src={Github} alt="github icon" />
                 </a>
-                <a href="https://www.linkedin.com/in/vivian-chen-b19483145/" target='_blank' rel="noreferrer">
+                <a href="https://www.linkedin.com/in/vivian-md-chen/" target='_blank' rel="noreferrer">
                     <img src={Linkedin} alt="linkedin icon" />
                 </a>
                 <a href="vivian.chen1193@gmail.com" target='_blank' rel="noreferrer">
