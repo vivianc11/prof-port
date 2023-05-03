@@ -54,7 +54,7 @@ const Projects = () => {
                     </Card.Body>
                 </Card>
 
-                <Card className='card'>
+                {/* <Card className='card'>
                     <Card.Img className='p-image' variant="top" src="dibs.png" />
                     <Card.Body className='p-card-body' style={{ backgroundColor: darkMode ? 'black' : '', color: darkMode ? '#a3a7b6' : '' }}>
                         <Card.Title>Dibs</Card.Title>
@@ -71,7 +71,7 @@ const Projects = () => {
                             </a>
                         </div>
                     </Card.Body>
-                </Card>
+                </Card> */}
 
                 {/* <Card className='card'>
                     <Card.Img className='p-image' variant="top" src="Happy-panda.png" />
