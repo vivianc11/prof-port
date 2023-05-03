@@ -28,7 +28,7 @@ const Projects = () => {
                                 <Button className="button p-button">Deployed Site</Button>
                             </a>
 
-                            <a href='https://github.com/vivianc11/best-care-auto'>
+                            <a href='https://github.com/vivianc11/best-care-auto' target='_blank' rel="noreferrer">
                                 <Button className="button p-button">GitHub Repo</Button>
                             </a>
                         </div>
@@ -47,7 +47,26 @@ const Projects = () => {
                                 <Button className="button p-button">Deployed Site</Button>
                             </a>
 
-                            <a href='https://github.com/rkle408/smile-line'>
+                            <a href='https://github.com/rkle408/smile-line' target='_blank' rel="noreferrer">
+                                <Button className="button p-button">GitHub Repo</Button>
+                            </a>
+                        </div>
+                    </Card.Body>
+                </Card>
+
+                <Card className='card'>
+                    <Card.Img className='p-image' variant="top" src="ecommerce.png" />
+                    <Card.Body className='p-card-body' style={{ backgroundColor: darkMode ? 'black' : '', color: darkMode ? '#a3a7b6' : '' }}>
+                        <Card.Title>E-Commerce Shop</Card.Title>
+                        <Card.Text>
+                            A headless e-commerce shop that features available products added through Commerce.js and checkout that is handled by Stripe.js.
+                        </Card.Text>
+                        <div className='card-buttons'>
+                            <a href='https://startling-druid-1de6d3.netlify.app/' target='_blank' rel="noreferrer">
+                                <Button className="button p-button">Deployed Site</Button>
+                            </a>
+
+                            <a href='https://github.com/vivianc11/ecommerce-shop' target='_blank' rel="noreferrer">
                                 <Button className="button p-button">GitHub Repo</Button>
                             </a>
                         </div>
